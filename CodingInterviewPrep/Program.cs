@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            new App().Run(100);
+            new App().Run();
         }
     }
 }
