@@ -1,4 +1,6 @@
 ﻿using CodingInterviewPrep.Arrays;
+using CodingInterviewPrep.Graphs;
+using CodingInterviewPrep.Recursion;
 using CodingInterviewPrep.Trees;
 using System;
 using System.Collections.Generic;
@@ -56,16 +58,8 @@ namespace CodingInterviewPrep
         {
             // Add Test Case Here!
 
-            //new ReverseString().Test();
-            //var merged = new MergeArrays().DoIt(new[] { 1, 2, 3, 4, 5, 9 }, new[] { 2, 4, 6, 8 });
-
-            var tree = new BinarySearchTree<int>();
-            var rand = new Random();
-            for (var i = 0; i < 20; i++)
-            {
-                tree.Insert(rand.Next(1000));
-            }
-            tree.Print();
+            //new FactorialCalculator().Test();
+            new FibonacciCalculator().Test();
         }
     }
 }
